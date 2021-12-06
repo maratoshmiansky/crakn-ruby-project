@@ -51,6 +51,7 @@ GEM
     unicode-display_width (2.1.0)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-linux
 
 DEPENDENCIES
@@ -61,4 +62,4 @@ DEPENDENCIES
   rubocop-rspec (~> 2.5)
 
 BUNDLED WITH
-   2.2.24
+   2.2.25
