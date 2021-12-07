@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class PersonMatcher
   attr_reader :people
 

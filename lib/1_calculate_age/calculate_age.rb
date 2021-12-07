@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class CalculateAge
   def self.calculate(age_at_birth, age_at_death)
     return "death date must be greater than birth date" if age_at_birth > age_at_death
