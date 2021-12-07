@@ -21,14 +21,14 @@ class PersonMatcher
   end
 
   def first_name_condition(person)
-    person[:first_name] == @first_name || @first_name.empty? # was a first name passed?
+    person[:first_name] == @first_name || @first_name.empty? # was a first name passed to find_match?
   end
 
   def middle_name_condition(person)
-    person[:middle_name] == @middle_name || @middle_name.empty? # was a middle name passed?
+    person[:middle_name] == @middle_name || @middle_name.empty? # was a middle name passed to find_match?
   end
 
   def last_name_condition(person)
-    person[:last_name] == @last_name || @last_name.empty? # was a last name passed?
+    person[:last_name] == @last_name || @last_name.empty? # was a last name passed to find_match?
   end
 end
