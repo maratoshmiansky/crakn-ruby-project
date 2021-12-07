@@ -29,4 +29,14 @@ RSpec.describe PersonMatcher do
       expect(matches).not_to include(autumn, noah, dwight1)
     end
   end
+
+  # I tried to add this additional test, but the linter said the block was too large (test passes, though)
+  # context "with Harley" do
+  #   let(:matches) { instance.find_match(middle_name: "Harley") }
+
+  #   it "matches Autumn" do
+  #     expect(matches).to include(autumn)
+  #     expect(matches).not_to include(dwight1, dwight2, noah)
+  #   end
+  # end
 end
